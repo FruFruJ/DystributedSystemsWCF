@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfEBanka", "WcfEBanka\WcfEBanka.csproj", "{8BAC1081-40C3-4464-B5C5-26A3CA4087FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBankaInterface", "EBankaInterface\EBankaInterface.csproj", "{F959DF11-E35D-4FAF-8C66-4B579A4D9468}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8BAC1081-40C3-4464-B5C5-26A3CA4087FB} = {8BAC1081-40C3-4464-B5C5-26A3CA4087FB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BAC1081-40C3-4464-B5C5-26A3CA4087FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAC1081-40C3-4464-B5C5-26A3CA4087FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAC1081-40C3-4464-B5C5-26A3CA4087FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAC1081-40C3-4464-B5C5-26A3CA4087FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F959DF11-E35D-4FAF-8C66-4B579A4D9468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F959DF11-E35D-4FAF-8C66-4B579A4D9468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F959DF11-E35D-4FAF-8C66-4B579A4D9468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F959DF11-E35D-4FAF-8C66-4B579A4D9468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25364525-DD18-4832-B535-ACB30806D095}
+	EndGlobalSection
+EndGlobal

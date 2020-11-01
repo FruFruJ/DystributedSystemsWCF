@@ -1,0 +1,7 @@
+C:\Users\Joks\source\repos\WCFjoks\WCFjoks\bin\Debug\WCFjoks.dll.config
+C:\Users\Joks\source\repos\WCFjoks\WCFjoks\bin\Debug\WCFjoks.dll
+C:\Users\Joks\source\repos\WCFjoks\WCFjoks\bin\Debug\WCFjoks.pdb
+C:\Users\Joks\source\repos\WCFjoks\WCFjoks\obj\Debug\Cisterna.csprojAssemblyReference.cache
+C:\Users\Joks\source\repos\WCFjoks\WCFjoks\obj\Debug\Cisterna.csproj.CoreCompileInputs.cache
+C:\Users\Joks\source\repos\WCFjoks\WCFjoks\obj\Debug\WCFjoks.dll
+C:\Users\Joks\source\repos\WCFjoks\WCFjoks\obj\Debug\WCFjoks.pdb

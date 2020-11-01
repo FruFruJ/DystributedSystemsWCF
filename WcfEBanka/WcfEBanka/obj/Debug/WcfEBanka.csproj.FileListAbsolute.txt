@@ -1,0 +1,7 @@
+C:\Users\Joks\source\repos\WcfEBanka\WcfEBanka\bin\Debug\WcfEBanka.dll.config
+C:\Users\Joks\source\repos\WcfEBanka\WcfEBanka\bin\Debug\WcfEBanka.dll
+C:\Users\Joks\source\repos\WcfEBanka\WcfEBanka\bin\Debug\WcfEBanka.pdb
+C:\Users\Joks\source\repos\WcfEBanka\WcfEBanka\obj\Debug\WcfEBanka.csprojAssemblyReference.cache
+C:\Users\Joks\source\repos\WcfEBanka\WcfEBanka\obj\Debug\WcfEBanka.csproj.CoreCompileInputs.cache
+C:\Users\Joks\source\repos\WcfEBanka\WcfEBanka\obj\Debug\WcfEBanka.dll
+C:\Users\Joks\source\repos\WcfEBanka\WcfEBanka\obj\Debug\WcfEBanka.pdb

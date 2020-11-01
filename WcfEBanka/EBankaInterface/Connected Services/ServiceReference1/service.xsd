@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="vratiStanje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="brRacuna" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vratiStanjeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vratiStanjeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="prebaciSaDeviznog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="racun" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kolicina" type="xs:float" />
+        <xs:element minOccurs="0" name="EURDIN" type="xs:float" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="prebaciSaDeviznogResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="prebaciSaDinarskog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="racun" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kolicina" type="xs:float" />
+        <xs:element minOccurs="0" name="EURDIN" type="xs:float" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="prebaciSaDinarskogResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kreirajRacun">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="brRacuna" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dinarski" type="xs:float" />
+        <xs:element minOccurs="0" name="devizni" type="xs:float" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kreirajRacunResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vratiIznosDinarski">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="brRacuna" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vratiIznosDinarskiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vratiIznosDinarskiResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vratiIznosDevizni">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="brRacuna" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vratiIznosDevizniResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vratiIznosDevizniResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

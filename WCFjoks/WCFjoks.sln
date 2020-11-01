@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cisterna", "WCFjoks\Cisterna.csproj", "{9A5D6920-1E10-4D85-8EC6-AA7DB2CC915B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp2", "WindowsFormsApp2\WindowsFormsApp2.csproj", "{A175A927-FBD0-41B4-8A05-6ACCCE309478}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9A5D6920-1E10-4D85-8EC6-AA7DB2CC915B} = {9A5D6920-1E10-4D85-8EC6-AA7DB2CC915B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A5D6920-1E10-4D85-8EC6-AA7DB2CC915B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5D6920-1E10-4D85-8EC6-AA7DB2CC915B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5D6920-1E10-4D85-8EC6-AA7DB2CC915B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5D6920-1E10-4D85-8EC6-AA7DB2CC915B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A175A927-FBD0-41B4-8A05-6ACCCE309478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A175A927-FBD0-41B4-8A05-6ACCCE309478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A175A927-FBD0-41B4-8A05-6ACCCE309478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A175A927-FBD0-41B4-8A05-6ACCCE309478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2DB563A-2BA8-4128-BC74-4AB8C84FC709}
+	EndGlobalSection
+EndGlobal

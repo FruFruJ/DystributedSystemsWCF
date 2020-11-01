@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMobilnaTelefonija", "WcfMobilnaTelefonija\WcfMobilnaTelefonija.csproj", "{F7D78DA8-8A46-4372-B382-D24CFB4EC743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelefonijaKLijent", "TelefonijaKLijent\TelefonijaKLijent.csproj", "{A431C4B9-42F8-45F9-BB52-FD31252F0F56}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7D78DA8-8A46-4372-B382-D24CFB4EC743} = {F7D78DA8-8A46-4372-B382-D24CFB4EC743}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D78DA8-8A46-4372-B382-D24CFB4EC743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D78DA8-8A46-4372-B382-D24CFB4EC743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D78DA8-8A46-4372-B382-D24CFB4EC743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D78DA8-8A46-4372-B382-D24CFB4EC743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A431C4B9-42F8-45F9-BB52-FD31252F0F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A431C4B9-42F8-45F9-BB52-FD31252F0F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A431C4B9-42F8-45F9-BB52-FD31252F0F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A431C4B9-42F8-45F9-BB52-FD31252F0F56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AF96EA5-0734-40AA-BB87-CA66C06C3E93}
+	EndGlobalSection
+EndGlobal

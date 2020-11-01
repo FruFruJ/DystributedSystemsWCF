@@ -1,0 +1,7 @@
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\WcfMobilnaTelefonija\bin\Debug\WcfMobilnaTelefonija.dll.config
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\WcfMobilnaTelefonija\bin\Debug\WcfMobilnaTelefonija.dll
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\WcfMobilnaTelefonija\bin\Debug\WcfMobilnaTelefonija.pdb
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\WcfMobilnaTelefonija\obj\Debug\WcfMobilnaTelefonija.csprojAssemblyReference.cache
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\WcfMobilnaTelefonija\obj\Debug\WcfMobilnaTelefonija.csproj.CoreCompileInputs.cache
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\WcfMobilnaTelefonija\obj\Debug\WcfMobilnaTelefonija.dll
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\WcfMobilnaTelefonija\obj\Debug\WcfMobilnaTelefonija.pdb

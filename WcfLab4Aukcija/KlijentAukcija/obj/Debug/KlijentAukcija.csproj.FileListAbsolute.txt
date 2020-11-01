@@ -1,0 +1,10 @@
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\bin\Debug\KlijentAukcija.exe.config
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\bin\Debug\KlijentAukcija.exe
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\bin\Debug\KlijentAukcija.pdb
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\obj\Debug\KlijentAukcija.csprojAssemblyReference.cache
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\obj\Debug\KlijentAukcija.Form1.resources
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\obj\Debug\KlijentAukcija.Properties.Resources.resources
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\obj\Debug\KlijentAukcija.csproj.GenerateResource.cache
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\obj\Debug\KlijentAukcija.csproj.CoreCompileInputs.cache
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\obj\Debug\KlijentAukcija.exe
+C:\Users\Joks\source\repos\WcfLab4Aukcija\KlijentAukcija\obj\Debug\KlijentAukcija.pdb

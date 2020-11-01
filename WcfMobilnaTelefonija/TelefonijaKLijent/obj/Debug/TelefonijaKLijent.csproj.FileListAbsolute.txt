@@ -1,0 +1,10 @@
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\bin\Debug\TelefonijaKLijent.exe.config
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\bin\Debug\TelefonijaKLijent.exe
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\bin\Debug\TelefonijaKLijent.pdb
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\obj\Debug\TelefonijaKLijent.csprojAssemblyReference.cache
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\obj\Debug\TelefonijaKLijent.Form1.resources
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\obj\Debug\TelefonijaKLijent.Properties.Resources.resources
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\obj\Debug\TelefonijaKLijent.csproj.GenerateResource.cache
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\obj\Debug\TelefonijaKLijent.csproj.CoreCompileInputs.cache
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\obj\Debug\TelefonijaKLijent.exe
+C:\Users\Joks\source\repos\WcfMobilnaTelefonija\TelefonijaKLijent\obj\Debug\TelefonijaKLijent.pdb

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceEBanka" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceEBanka_vratiStanje_InputMessage">
+    <wsdl:part name="parameters" element="tns:vratiStanje" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_vratiStanje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:vratiStanjeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_prebaciSaDeviznog_InputMessage">
+    <wsdl:part name="parameters" element="tns:prebaciSaDeviznog" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_prebaciSaDeviznog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:prebaciSaDeviznogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_prebaciSaDinarskog_InputMessage">
+    <wsdl:part name="parameters" element="tns:prebaciSaDinarskog" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_prebaciSaDinarskog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:prebaciSaDinarskogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_kreirajRacun_InputMessage">
+    <wsdl:part name="parameters" element="tns:kreirajRacun" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_kreirajRacun_OutputMessage">
+    <wsdl:part name="parameters" element="tns:kreirajRacunResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_vratiIznosDinarski_InputMessage">
+    <wsdl:part name="parameters" element="tns:vratiIznosDinarski" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_vratiIznosDinarski_OutputMessage">
+    <wsdl:part name="parameters" element="tns:vratiIznosDinarskiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_vratiIznosDevizni_InputMessage">
+    <wsdl:part name="parameters" element="tns:vratiIznosDevizni" />
+  </wsdl:message>
+  <wsdl:message name="IServiceEBanka_vratiIznosDevizni_OutputMessage">
+    <wsdl:part name="parameters" element="tns:vratiIznosDevizniResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceEBanka">
+    <wsdl:operation name="vratiStanje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceEBanka/vratiStanje" message="tns:IServiceEBanka_vratiStanje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceEBanka/vratiStanjeResponse" message="tns:IServiceEBanka_vratiStanje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="prebaciSaDeviznog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceEBanka/prebaciSaDeviznog" message="tns:IServiceEBanka_prebaciSaDeviznog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceEBanka/prebaciSaDeviznogResponse" message="tns:IServiceEBanka_prebaciSaDeviznog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="prebaciSaDinarskog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceEBanka/prebaciSaDinarskog" message="tns:IServiceEBanka_prebaciSaDinarskog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceEBanka/prebaciSaDinarskogResponse" message="tns:IServiceEBanka_prebaciSaDinarskog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="kreirajRacun">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceEBanka/kreirajRacun" message="tns:IServiceEBanka_kreirajRacun_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceEBanka/kreirajRacunResponse" message="tns:IServiceEBanka_kreirajRacun_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="vratiIznosDinarski">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceEBanka/vratiIznosDinarski" message="tns:IServiceEBanka_vratiIznosDinarski_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceEBanka/vratiIznosDinarskiResponse" message="tns:IServiceEBanka_vratiIznosDinarski_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="vratiIznosDevizni">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceEBanka/vratiIznosDevizni" message="tns:IServiceEBanka_vratiIznosDevizni_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceEBanka/vratiIznosDevizniResponse" message="tns:IServiceEBanka_vratiIznosDevizni_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceEBanka" type="tns:IServiceEBanka">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="vratiStanje">
+      <soap:operation soapAction="http://tempuri.org/IServiceEBanka/vratiStanje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="prebaciSaDeviznog">
+      <soap:operation soapAction="http://tempuri.org/IServiceEBanka/prebaciSaDeviznog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="prebaciSaDinarskog">
+      <soap:operation soapAction="http://tempuri.org/IServiceEBanka/prebaciSaDinarskog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="kreirajRacun">
+      <soap:operation soapAction="http://tempuri.org/IServiceEBanka/kreirajRacun" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vratiIznosDinarski">
+      <soap:operation soapAction="http://tempuri.org/IServiceEBanka/vratiIznosDinarski" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vratiIznosDevizni">
+      <soap:operation soapAction="http://tempuri.org/IServiceEBanka/vratiIznosDevizni" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceEBanka">
+    <wsdl:port name="BasicHttpBinding_IServiceEBanka" binding="tns:BasicHttpBinding_IServiceEBanka">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfEBanka/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

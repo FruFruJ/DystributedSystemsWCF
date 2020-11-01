@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceOperater" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceOperater_dodajMinute_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajMinute" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_dodajMinute_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajMinuteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_dodajPoruke_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajPoruke" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_dodajPoruke_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajPorukeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_dodajInternet_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajInternet" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_dodajInternet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajInternetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_vratiStanje_InputMessage">
+    <wsdl:part name="parameters" element="tns:vratiStanje" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_vratiStanje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:vratiStanjeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_dodajRacun_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajRacun" />
+  </wsdl:message>
+  <wsdl:message name="IServiceOperater_dodajRacun_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajRacunResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceOperater">
+    <wsdl:operation name="dodajMinute">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceOperater/dodajMinute" message="tns:IServiceOperater_dodajMinute_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceOperater/dodajMinuteResponse" message="tns:IServiceOperater_dodajMinute_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dodajPoruke">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceOperater/dodajPoruke" message="tns:IServiceOperater_dodajPoruke_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceOperater/dodajPorukeResponse" message="tns:IServiceOperater_dodajPoruke_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dodajInternet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceOperater/dodajInternet" message="tns:IServiceOperater_dodajInternet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceOperater/dodajInternetResponse" message="tns:IServiceOperater_dodajInternet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="vratiStanje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceOperater/vratiStanje" message="tns:IServiceOperater_vratiStanje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceOperater/vratiStanjeResponse" message="tns:IServiceOperater_vratiStanje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dodajRacun">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceOperater/dodajRacun" message="tns:IServiceOperater_dodajRacun_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceOperater/dodajRacunResponse" message="tns:IServiceOperater_dodajRacun_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceOperater" type="tns:IServiceOperater">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="dodajMinute">
+      <soap:operation soapAction="http://tempuri.org/IServiceOperater/dodajMinute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajPoruke">
+      <soap:operation soapAction="http://tempuri.org/IServiceOperater/dodajPoruke" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajInternet">
+      <soap:operation soapAction="http://tempuri.org/IServiceOperater/dodajInternet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vratiStanje">
+      <soap:operation soapAction="http://tempuri.org/IServiceOperater/vratiStanje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajRacun">
+      <soap:operation soapAction="http://tempuri.org/IServiceOperater/dodajRacun" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceOperater">
+    <wsdl:port name="BasicHttpBinding_IServiceOperater" binding="tns:BasicHttpBinding_IServiceOperater">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfMobilnaTelefonija/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

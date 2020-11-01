@@ -1,0 +1,7 @@
+C:\Users\Joks\source\repos\WcfLab4Aukcija\WcfLab4Aukcija\bin\Debug\WcfLab4Aukcija.dll.config
+C:\Users\Joks\source\repos\WcfLab4Aukcija\WcfLab4Aukcija\bin\Debug\WcfLab4Aukcija.dll
+C:\Users\Joks\source\repos\WcfLab4Aukcija\WcfLab4Aukcija\bin\Debug\WcfLab4Aukcija.pdb
+C:\Users\Joks\source\repos\WcfLab4Aukcija\WcfLab4Aukcija\obj\Debug\WcfLab4Aukcija.csprojAssemblyReference.cache
+C:\Users\Joks\source\repos\WcfLab4Aukcija\WcfLab4Aukcija\obj\Debug\WcfLab4Aukcija.csproj.CoreCompileInputs.cache
+C:\Users\Joks\source\repos\WcfLab4Aukcija\WcfLab4Aukcija\obj\Debug\WcfLab4Aukcija.dll
+C:\Users\Joks\source\repos\WcfLab4Aukcija\WcfLab4Aukcija\obj\Debug\WcfLab4Aukcija.pdb

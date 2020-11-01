@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceAukcija" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceAukcija_prijaviKlijenta_InputMessage">
+    <wsdl:part name="parameters" element="tns:prijaviKlijenta" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_prijaviKlijenta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:prijaviKlijentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_vratiEksponatIDPonudjivaca_InputMessage">
+    <wsdl:part name="parameters" element="tns:vratiEksponatIDPonudjivaca" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_vratiEksponatIDPonudjivaca_OutputMessage">
+    <wsdl:part name="parameters" element="tns:vratiEksponatIDPonudjivacaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_odustajeKlijent_InputMessage">
+    <wsdl:part name="parameters" element="tns:odustajeKlijent" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_odustajeKlijent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:odustajeKlijentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_povecajCenu_InputMessage">
+    <wsdl:part name="parameters" element="tns:povecajCenu" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_povecajCenu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:povecajCenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_postaviEksponat_InputMessage">
+    <wsdl:part name="parameters" element="tns:postaviEksponat" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAukcija_postaviEksponat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:postaviEksponatResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceAukcija">
+    <wsdl:operation name="prijaviKlijenta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAukcija/prijaviKlijenta" message="tns:IServiceAukcija_prijaviKlijenta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAukcija/prijaviKlijentaResponse" message="tns:IServiceAukcija_prijaviKlijenta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="vratiEksponatIDPonudjivaca">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAukcija/vratiEksponatIDPonudjivaca" message="tns:IServiceAukcija_vratiEksponatIDPonudjivaca_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAukcija/vratiEksponatIDPonudjivacaResponse" message="tns:IServiceAukcija_vratiEksponatIDPonudjivaca_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="odustajeKlijent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAukcija/odustajeKlijent" message="tns:IServiceAukcija_odustajeKlijent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAukcija/odustajeKlijentResponse" message="tns:IServiceAukcija_odustajeKlijent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="povecajCenu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAukcija/povecajCenu" message="tns:IServiceAukcija_povecajCenu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAukcija/povecajCenuResponse" message="tns:IServiceAukcija_povecajCenu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="postaviEksponat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAukcija/postaviEksponat" message="tns:IServiceAukcija_postaviEksponat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAukcija/postaviEksponatResponse" message="tns:IServiceAukcija_postaviEksponat_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceAukcija" type="tns:IServiceAukcija">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="prijaviKlijenta">
+      <soap:operation soapAction="http://tempuri.org/IServiceAukcija/prijaviKlijenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vratiEksponatIDPonudjivaca">
+      <soap:operation soapAction="http://tempuri.org/IServiceAukcija/vratiEksponatIDPonudjivaca" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="odustajeKlijent">
+      <soap:operation soapAction="http://tempuri.org/IServiceAukcija/odustajeKlijent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="povecajCenu">
+      <soap:operation soapAction="http://tempuri.org/IServiceAukcija/povecajCenu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="postaviEksponat">
+      <soap:operation soapAction="http://tempuri.org/IServiceAukcija/postaviEksponat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceAukcija">
+    <wsdl:port name="BasicHttpBinding_IServiceAukcija" binding="tns:BasicHttpBinding_IServiceAukcija">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfLab4Aukcija/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

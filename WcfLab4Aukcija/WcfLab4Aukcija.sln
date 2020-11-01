@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLab4Aukcija", "WcfLab4Aukcija\WcfLab4Aukcija.csproj", "{C2518B8A-BAB9-4A88-816F-C8DB9EE5AB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlijentAukcija", "KlijentAukcija\KlijentAukcija.csproj", "{31035F2C-37EF-4466-83B5-65C540D23424}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2518B8A-BAB9-4A88-816F-C8DB9EE5AB51} = {C2518B8A-BAB9-4A88-816F-C8DB9EE5AB51}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2518B8A-BAB9-4A88-816F-C8DB9EE5AB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2518B8A-BAB9-4A88-816F-C8DB9EE5AB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2518B8A-BAB9-4A88-816F-C8DB9EE5AB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2518B8A-BAB9-4A88-816F-C8DB9EE5AB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31035F2C-37EF-4466-83B5-65C540D23424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31035F2C-37EF-4466-83B5-65C540D23424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31035F2C-37EF-4466-83B5-65C540D23424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31035F2C-37EF-4466-83B5-65C540D23424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD7194C8-4F66-4283-872B-293FBD0F2A66}
+	EndGlobalSection
+EndGlobal
